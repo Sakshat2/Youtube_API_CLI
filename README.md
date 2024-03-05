@@ -2,6 +2,18 @@
 A CLI application  where it fetch data from my youtube channel using spring shell
 
 
+## Getting Started 
+
+If you want to follow along and create your own YouTube CLI you will need to get an API key from Google.
+you will need to add the following properties to your `application.properties` file.
+
+
+```properties
+youtube.channel-id=YOUR_CHANNEL_ID
+youtube.key=YOUR_API_KEY
+```
+
+
 ## Running the CLI
 
 When those values are set you can run the CLI by running the following command or by running the `main` method in your
